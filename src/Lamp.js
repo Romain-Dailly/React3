@@ -6,10 +6,11 @@ class Lamp extends Component {
 		super(props);
 		this.state = {
 			on: false
-		};		
+		};
 	}
 	handleClick = () => {
-		this.setState({ on: !this.state.on })};
+		this.setState({ on: !this.state.on })
+	};
 	render() {
 		const light = this.state.on ? 'on' : 'off';
 		return (
