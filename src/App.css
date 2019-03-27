@@ -9,7 +9,7 @@
 }
 
 .App-logo-not {
-  animation: App-logo-scale 2s ease-in-out infinite alternate;;
+  animation: App-logo-scale 1s ease-in-out 2 alternate;;
   height: 40vmin;
   pointer-events: none;
 }
